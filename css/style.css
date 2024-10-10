@@ -1,0 +1,25 @@
+body,html{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+    background-color: rgb(132, 219, 132);
+}
+div{
+	margin: 0px;
+	padding: 0px;
+}
+#carromBoard{
+	background-color: rgb(153, 50, 50);
+	position: absolute;
+    border-radius: 20px;
+}
+#Striker{
+	position: relative;
+}
+.jumbotron{
+	padding: 0px;
+	margin: 0px;
+	padding-left: 20px;
+    background-color: rgba(245, 245, 245, 0.5);
+}
