@@ -12,7 +12,7 @@ let striker = {
   vx: 0,
   vy: 0,
   radius: 12.5,
-  massa: 5,
+  massa: 0.5,
   color: "whitesmoke",
 };
 let coins = [
@@ -29,7 +29,7 @@ let coins = [
 
 coins.forEach((coin) => {
   coin.radius = 12.5;
-  coin.massa = 5;
+  coin.massa = 0.5;
   coin.vx = 0;
   coin.vy = 0;
 });
@@ -202,7 +202,7 @@ function tabrakanObject(object1, object2) {
 }
 
 function gayaGesek(obj) {
-  let N = obj.massa * 0.98;
+  let N = obj.massa * 9.8;
   let koefisienGesek = 0.2;
   let F = koefisienGesek * N;
   return F;
