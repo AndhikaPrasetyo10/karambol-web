@@ -183,7 +183,7 @@ function tabrakanObject(object1, object2) {
     let v1 = object1.vx * arahX + object1.vy * arahY;
     let v2 = object2.vx * arahX + object2.vy * arahY;
 
-    // v1 = [2m2 v2 + v1 ( m1 – m2)] / (m1 +m2 ) momentum dan energi kinetik
+    // v1 = [2m2 v2 + v1 ( m1 – m2)] / (m1 +m2 ) turunan rumus momentum dan energi kinetik
     let v1_after = (2 * object2.massa * v2 + v1 * (object1.massa - object2.massa)) / (object1.massa + object2.massa);
     let v2_after = (2 * object1.massa * v1 + v2 * (object2.massa - object1.massa)) / (object1.massa + object2.massa);
 
